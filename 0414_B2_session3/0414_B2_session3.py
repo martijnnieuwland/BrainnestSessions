@@ -35,7 +35,7 @@
 
 # 3. Write a list comprehension to find all the prime numbers between 1 and 100.
 
-primes = [prime for prime in range(2, 101) if all(prime % i != 0 for i in range(2, prime))]
+primes = [prime for prime in range(2, 101) if all(prime % number != 0 for number in range(2, prime))]
 
 # for p in range(1, 101):
 #     primes.append(p)
